@@ -1,0 +1,48 @@
+.mybtn-main {
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background-color: #13234E;
+    border: solid 1px #13234E;
+    color: #fff;
+}
+
+.myfooter-telos {
+    background: #13234e;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.footer-love {
+    color: #ffffff;
+    text-align: left;
+    font: 600 16px "Poppins", sans-serif;
+    position: relative;
+}
+
+.navLink {
+    color: #13234e;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none; 
+    padding-bottom: 5px; 
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s; 
+  }
+  
+  .navLink:hover,
+  .navLink:active {
+    border-bottom-color: #13234e; 
+  }
+
+  .navLink-active {
+    border-bottom-color: #13234e; 
+  }

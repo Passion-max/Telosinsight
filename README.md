@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI-Powered Smart Contract Advisor
 
-## Getting Started
+## Description
+This project is an AI-powered smart contract advisor built using Next.js. It allows users to analyze Telos smart contracts and gain insights into their functionalities and interactions.
 
-First, run the development server:
+## Features
+- Analyze smart contracts on the Telos blockchain.
+- Display a list of recently deployed smart contracts.
+- User-friendly interface with real-time analysis feedback.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the repository:**
+   ```bash
+   git clone [Your Repository URL]
+   cd [Your Project Directory]
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`npm install`
 
-## Learn More
+## Setting Up Environment Variables
+Create a .env.local file in your project root and add the following API keys:
+or set them in vercel environment
 
-To learn more about Next.js, take a look at the following resources:
+ - NEXT_PUBLIC_WC_PROJECTID=[Your WalletConnect Project ID]
+ - NEXT_PUBLIC_ALCHEMY=[Your Alchemy API Key]
+ - NEXT_PUBLIC_OPENAI_API=[Your OpenAI API Key]
+Replace the placeholders with your actual API keys. These keys are essential for connecting to the blockchain and utilizing AI functionalities.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##  Running the Project Locally
+After setting up the environment variables, start the project using:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`npm run dev`
+The application should now be running on http://localhost:3000.
 
-## Deploy on Vercel
+## Deployment
+This project is ready to be deployed on Vercel. Follow these steps for deployment:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Push your changes to your Git repository.
+- Sign up/Login to Vercel.
+- Import your GitHub repository into Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Set up the following environment variables in your Vercel project settings:
+
+-  NEXT_PUBLIC_WC_PROJECTID: Your WalletConnect Project ID.
+- NEXT_PUBLIC_ALCHEMY: Your Alchemy API Key.
+- NEXT_PUBLIC_OPENAI_API: Your OpenAI API Key.
+Deploy your project through the Vercel dashboard.
+
+Vercel will automatically deploy your project and provide a URL to access your live application.
+
+Contributing
+Contributions are welcome. Please open an issue first to discuss what you would like to change or add.
